@@ -12,8 +12,8 @@ namespace petrik_2017_14s_kozos
 {
     public partial class Form1 : Form
     {
-        private readonly string defaultText = "HGabor";
-        private readonly Color defaultColor = Color.Aqua;
+        private readonly string defaultText = "All hail the God Emperor!";
+        private readonly Color defaultColor = Color.Crimson;
 
         public Form1()
         {
@@ -38,6 +38,11 @@ namespace petrik_2017_14s_kozos
                 }
             };
             flowLayoutPanel1.Controls.Add(colorButton);
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
